@@ -80,11 +80,12 @@ Partial Class DinerMenuForm
         Me.DisplaySpecialLabel.AutoSize = True
         Me.DisplaySpecialLabel.Location = New System.Drawing.Point(174, 139)
         Me.DisplaySpecialLabel.Name = "DisplaySpecialLabel"
-        Me.DisplaySpecialLabel.Size = New System.Drawing.Size(51, 17)
+        Me.DisplaySpecialLabel.Size = New System.Drawing.Size(360, 102)
         Me.DisplaySpecialLabel.TabIndex = 5
-        Me.DisplaySpecialLabel.Text = "Label1"
+        Me.DisplaySpecialLabel.Text = "Welcome to Burgie's young'un!" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Be prepaired for the finest cheapest home town c" &
+    "ooking" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "money can buy!" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "We cook all meals to order, please be patient! "
         '
-        'Form1
+        'DinerMenuForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -95,7 +96,7 @@ Partial Class DinerMenuForm
         Me.Controls.Add(Me.FishButton)
         Me.Controls.Add(Me.SaladButton)
         Me.Controls.Add(Me.SoupButton)
-        Me.Name = "Form1"
+        Me.Name = "DinerMenuForm"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
